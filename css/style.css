@@ -1,0 +1,351 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Poppins', Sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', Sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+/*************************
+**** Style CSS Starts ****
+**************************/
+
+/** Header Section Code Starts **/
+.header{
+	width: 100%;
+	background: #F0FFF0;
+}
+.header .menu-section .bg-light{
+	background: transparent !important;
+}
+.header .menu-section .navbar-brand img{
+	width: 198.07px;
+}
+.header .menu-section .navbar-nav .nav-item{
+	margin: 0px 0px 0px 15px;
+}
+.header .menu-section .navbar-nav .nav-link{
+	color: #000;
+	font-weight: 500;
+}
+.header .menu-section .navbar-nav .nav-link:hover{
+	color: #6C6B6B;
+
+}
+.header .menu-section .navbar-nav .btn-info{
+	background: #21B573;
+    color: #fff;
+    margin: 0px 0px 0px 15px;
+    padding: 5px 20px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    font-family: 'roboto', sans-serif;
+}
+.header .menu-section .navbar-nav .btn-info:hover, .header .menu-section .navbar-nav .btn-info:focus{
+	background: transparent;
+    color: #000;
+}
+.header .banner-section{
+	width: 100%;
+	margin-top: 40px;
+}
+.header .banner-section .inner-banner{
+	width: 100%;
+	margin-top: 20px;
+}
+.header .banner-section .inner-banner h5{
+	font-size: 16px;
+	line-height: 24px;
+	color: #FD511A;
+	margin: 0px 0px 10px 0px;
+}
+.header .banner-section .inner-banner h2{
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 70px;
+}
+.header .banner-section .inner-banner span{
+	color: #21B573;
+}
+.header .banner-section .inner-banner p{
+	font-size: 16px;
+	line-height: 36px;
+	color: #6C6B6B;
+	-webkit-text-stroke: 1px #000;
+}
+.header .banner-section .inner-banner .btn-info{
+	background: #21B573;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 20px 0px 0px 0px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    font-family: 'roboto', sans-serif;
+    transition: .1s;
+}
+.header .banner-section .inner-banner .btn-info:hover{
+	border: 1px solid #000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header .banner-section .banner-img{
+	width: 100%;
+	padding: 55px 0px 70px 0px;
+}
+.header .banner-section img{
+	width: 100%;
+}
+
+/** About Section Starts **/
+.about-section{
+	width: 100%;
+}
+.about-section .card{
+	border: 0px solid rgba(0,0,0,.125);
+	background: #F8FFFB;
+	border-radius: 10px;
+    margin: 30px 0px;
+    transition: .3s;
+}
+.about-section .card:hover, .about-section .card:focus{
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	background: #fff;
+}
+.about-section .card-body{
+	text-align: center;
+	height: 270px;
+}
+.about-section .card-body img{
+	width: 66px;
+	height: 85px;
+	margin: 30px 0px;
+}
+.about-section .card-body h5{
+	color: #413960;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+}
+.about-section .card-body h6{
+	font-size: 16px;
+	line-height: 24px;
+}
+/** About Section Ends **/
+
+/** Course Section Starts **/
+.course-section{
+	width: 100%;
+}
+.course-section .course-title{
+	width: 100%;
+	text-align: center;
+    margin: 55px 0px;
+}
+.course-section .course-title h1{
+	color: #413960;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+}
+.course-section .card{
+	border: none;
+	height: 483px;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+.course-section .card img{
+	width: 331px;
+	height: 234px;
+	border-radius: 11px;
+	align-self: center;
+	margin: 20px 0px 10px;
+}
+.course-section .card .card-body{
+	width: 100%;
+	width: 370px;
+	
+
+}
+.course-section .card .card-body .card-title{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #413960;
+}
+.course-section .card .card-body .card-subtitle{
+	font-size: 16px;
+	line-height: 24px;
+	color: #585859;
+}
+.course-section .card .card-body .btn-info{
+	background: #21B573;
+    color: #fff;
+    margin-top: 11px;
+    padding: 5px 20px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    font-family: 'roboto', sans-serif;
+}
+.course-section .card .card-body .end{
+	text-align: right !important;
+}
+.course-section .card .card-body .btn-info:hover, .course-section .card .card-body .btn-info:focus{
+	background: #fff;
+	color: #000;
+	border: 1px solid #21B573;
+}
+.course-section .card .card-body .card-link{
+	width: 100%;
+}
+.course-section .card .card-body .card-link i{ 
+    color: #585859;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/** Course Section Ends **/
+
+/** Testimonial Section Starts **/
+.test-section{
+	width: 100%
+}
+.test-section .test-title{
+	width: 100%;
+	text-align: center;
+	margin: 55px 0px;
+}
+.test-section .test-title h1{
+	font-weight: bold;
+ 	font-size: 36px;
+ 	line-height: 54px;
+}
+.story-img{
+	width: 100%;
+	text-align: end;
+}
+.test-section .story-img img{
+	width: 120px;
+	height: 120px;
+}
+.story{
+	width: 100%;
+}
+.story p{
+    padding: 18px 0px 0px 18px;
+    font-size: 16px;
+    line-height: 30px;
+}
+/** Testimonial Section Ends **/
+
+/** Footer Section Starts **/
+.footer{
+	width: 100%;
+	background: #282531;
+	margin-top: 100px;
+	padding-top: 30px;
+}
+.footer p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+	position: absolute;
+}
+.footer h5{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+}
+.footer ul{
+}
+.footer ul a{
+	color: #fff;
+}
+.footer .footer-copyright{
+	text-align: center;
+	margin-top: 50px;
+}
+.footer .footer-copyright h6{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #CDCDCD;
+}
+
+/** responsive code goes here **/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .course-section .card{
+  	
+	}
+}
